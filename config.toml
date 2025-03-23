@@ -1,25 +1,64 @@
 baseURL = 'https://embici.github.io/'
-languageCode = 'en-us'
-title = 'Embici Blog'
-theme = 'anatole'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    title = "Embici Blog"
+    [languages.en.params]
+      subtitle = "A personal blog about technology and life"
+      keywords = ["blog", "technology", "personal"]
+      featured_image = "/images/header.jpg"
+      featured_image_alt = "Blog header image"
+      rss_icon = true
+      favicon = "/favicon.ico"
+      [[languages.en.params.social]]
+        name = "github"
+        url = "https://github.com/embici"
+      [[languages.en.params.social]]
+        name = "twitter"
+        url = "https://twitter.com/embici"
+
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    title = "Embici Blog"
+    [languages.es.params]
+      subtitle = "Un blog personal sobre tecnología y vida"
+      keywords = ["blog", "tecnología", "personal"]
+      featured_image = "/images/header.jpg"
+      featured_image_alt = "Imagen de encabezado del blog"
+      rss_icon = true
+      favicon = "/favicon.ico"
+      [[languages.es.params.social]]
+        name = "github"
+        url = "https://github.com/embici"
+      [[languages.es.params.social]]
+        name = "twitter"
+        url = "https://twitter.com/embici"
+
+  [languages.pt]
+    languageName = "Português"
+    weight = 3
+    title = "Embici Blog"
+    [languages.pt.params]
+      subtitle = "Um blog pessoal sobre tecnologia e vida"
+      keywords = ["blog", "tecnologia", "pessoal"]
+      featured_image = "/images/header.jpg"
+      featured_image_alt = "Imagem de cabeçalho do blog"
+      rss_icon = true
+      favicon = "/favicon.ico"
+      [[languages.pt.params.social]]
+        name = "github"
+        url = "https://github.com/embici"
+      [[languages.pt.params.social]]
+        name = "twitter"
+        url = "https://twitter.com/embici"
 
 [params]
   env = "production"
-  title = "Embici Blog"
-  description = "A personal blog about technology and life"
-  keywords = ["blog", "technology", "personal"]
-  # Anatole theme specific parameters
-  featured_image = "/images/header.jpg"
-  featured_image_alt = "Blog header image"
-  rss_icon = true
-  favicon = "/favicon.ico"
-  # Social links
-  [[params.social]]
-    name = "github"
-    url = "https://github.com/embici"
-  [[params.social]]
-    name = "twitter"
-    url = "https://twitter.com/embici"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = true
