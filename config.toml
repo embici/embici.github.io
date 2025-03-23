@@ -21,6 +21,24 @@ theme = 'anatole'
       [[languages.en.params.social]]
         name = "twitter"
         url = "https://twitter.com/embici"
+    [[languages.en.menu.main]]
+      identifier = "home"
+      name = "Home"
+      url = "/en/"
+      weight = -100
+      pre = "home"
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/en/posts/"
+      weight = -90
+      pre = "list"
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/en/about/"
+      weight = -80
+      pre = "user"
 
   [languages.es]
     languageName = "Español"
@@ -39,6 +57,24 @@ theme = 'anatole'
       [[languages.es.params.social]]
         name = "twitter"
         url = "https://twitter.com/embici"
+    [[languages.es.menu.main]]
+      identifier = "home"
+      name = "Inicio"
+      url = "/es/"
+      weight = -100
+      pre = "home"
+    [[languages.es.menu.main]]
+      identifier = "posts"
+      name = "Artículos"
+      url = "/es/posts/"
+      weight = -90
+      pre = "list"
+    [[languages.es.menu.main]]
+      identifier = "about"
+      name = "Sobre Mí"
+      url = "/es/about/"
+      weight = -80
+      pre = "user"
 
   [languages.pt]
     languageName = "Português"
@@ -57,6 +93,24 @@ theme = 'anatole'
       [[languages.pt.params.social]]
         name = "twitter"
         url = "https://twitter.com/embici"
+    [[languages.pt.menu.main]]
+      identifier = "home"
+      name = "Início"
+      url = "/pt/"
+      weight = -100
+      pre = "home"
+    [[languages.pt.menu.main]]
+      identifier = "posts"
+      name = "Artigos"
+      url = "/pt/posts/"
+      weight = -90
+      pre = "list"
+    [[languages.pt.menu.main]]
+      identifier = "about"
+      name = "Sobre Mim"
+      url = "/pt/about/"
+      weight = -80
+      pre = "user"
 
 [params]
   env = "production"
@@ -68,24 +122,4 @@ theme = 'anatole'
   ShowCodeCopyButtons = true
   ShowWordCount = true
   ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = -100
-    pre = "home"
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = -90
-    pre = "list"
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = -80
-    pre = "user" 
+  UseHugoToc = true 
