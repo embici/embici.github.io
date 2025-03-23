@@ -1,6 +1,7 @@
 baseURL = 'https://embici.github.io/'
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = true
+theme = 'anatole'
 
 [languages]
   [languages.en]
