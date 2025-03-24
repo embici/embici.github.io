@@ -1,8 +1,9 @@
 ---
 title: "Portfolio"
-description: "Explore my projects and work"
+description: "My projects and work"
+layout: "section"
 ---
 
-# Portfolio
+# My Portfolio
 
-Here you'll find a selection of my most notable projects and completed work. 
+Here you'll find a collection of my projects and work. 

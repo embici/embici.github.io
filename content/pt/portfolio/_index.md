@@ -1,8 +1,9 @@
 ---
 title: "Portfólio"
-description: "Explore meus projetos e trabalhos"
+description: "Meus projetos e trabalhos"
+layout: "section"
 ---
 
-# Portfólio
+# Meu Portfólio
 
-Aqui você encontrará uma seleção dos meus projetos mais notáveis e trabalhos realizados. 
+Aqui você encontrará uma coleção dos meus projetos e trabalhos. 

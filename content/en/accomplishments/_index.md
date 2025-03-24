@@ -1,8 +1,9 @@
 ---
 title: "Accomplishments"
-description: "My achievements and recognitions"
+description: "My achievements and recognition"
+layout: "section"
 ---
 
-# Accomplishments
+# My Accomplishments
 
-A list of my professional achievements, certifications, and recognitions. 
+Here you'll find information about my achievements and recognition. 

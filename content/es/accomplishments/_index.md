@@ -1,6 +1,7 @@
 ---
 title: "Logros"
 description: "Mis logros y reconocimientos"
+layout: "section"
 ---
 
 # Logros

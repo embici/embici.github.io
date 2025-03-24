@@ -1,6 +1,7 @@
 ---
 title: "About"
 description: "Learn more about me and my professional journey"
+layout: "section"
 ---
 
 # About Me

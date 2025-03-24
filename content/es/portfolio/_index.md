@@ -1,6 +1,7 @@
 ---
 title: "Portafolio"
 description: "Explora mis proyectos y trabajos"
+layout: "section"
 ---
 
 # Portafolio

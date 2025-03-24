@@ -1,6 +1,7 @@
 ---
 title: "Sobre Mí"
 description: "Conoce más sobre mí y mi trayectoria profesional"
+layout: "section"
 ---
 
 # Sobre Mí

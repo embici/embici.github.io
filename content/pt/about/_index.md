@@ -1,6 +1,7 @@
 ---
-title: "Sobre Mim"
+title: "Sobre"
 description: "Saiba mais sobre mim e minha jornada profissional"
+layout: "section"
 ---
 
 # Sobre Mim
