@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on My Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://localhost:1313/posts/my-first-post/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>&lt;p&gt;Welcome to my blog! This is my first post using Hugo with the Paper theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;This is a simple blog post to test the Hugo setup. The Paper theme provides a clean and minimal design that&amp;rsquo;s perfect for blogging.&lt;/p&gt;&#xA;&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Clean and minimal design&lt;/li&gt;&#xA;&lt;li&gt;Fast and responsive&lt;/li&gt;&#xA;&lt;li&gt;Easy to customize&lt;/li&gt;&#xA;&lt;li&gt;Markdown support&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Stay tuned for more content!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
