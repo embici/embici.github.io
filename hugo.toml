@@ -7,7 +7,7 @@ theme = "paper"
   [languages.es]
     languageName = "Español"
     weight = 1
-    title = "Mi Blog"
+    title = "Esteban Montero"
     contentDir = "content/es"
     [languages.es.menu]
       [[languages.es.menu.main]]
@@ -29,7 +29,7 @@ theme = "paper"
   [languages.en]
     languageName = "English"
     weight = 2
-    title = "My Blog"
+    title = "Esteban Montero"
     contentDir = "content/en"
     [languages.en.menu]
       [[languages.en.menu.main]]
@@ -51,7 +51,7 @@ theme = "paper"
   [languages.pt]
     languageName = "Português"
     weight = 3
-    title = "Meu Blog"
+    title = "Esteban Montero"
     contentDir = "content/pt"
     [languages.pt.menu]
       [[languages.pt.menu.main]]
@@ -74,3 +74,6 @@ theme = "paper"
   defaultTheme = "auto"
   monolingual = false
   customCSS = ["css/custom.css"]
+  github = 'embici'                 # github.com/YOUR_GITHUB_ID
+  instagram = 'embici'           # instagram.com/YOUR_INSTAGRAM_ID
+  linkedin = 'emontu'             # linkedin.com/in/YOUR_LINKEDIN_ID
