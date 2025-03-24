@@ -1,6 +1,9 @@
 {{ define "main" }}
 <article class="prose prose-neutral dark:prose-invert">
   <h1>{{ .Title }}</h1>
+  <p>Language: {{ .Language.Lang }}</p>
+  <p>Type: {{ .Type }}</p>
+  <p>Kind: {{ .Kind }}</p>
   {{ .Content }}
 </article>
 {{ end }} 
