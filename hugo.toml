@@ -9,18 +9,66 @@ theme = "paper"
     weight = 1
     title = "Mi Blog"
     contentDir = "content/es"
+    [languages.es.menu]
+      [[languages.es.menu.main]]
+        identifier = "about"
+        name = "Sobre Mí"
+        url = "/es/about/"
+        weight = 10
+      [[languages.es.menu.main]]
+        identifier = "portfolio"
+        name = "Portafolio"
+        url = "/es/portfolio/"
+        weight = 20
+      [[languages.es.menu.main]]
+        identifier = "accomplishments"
+        name = "Logros"
+        url = "/es/accomplishments/"
+        weight = 30
 
   [languages.en]
     languageName = "English"
     weight = 2
     title = "My Blog"
     contentDir = "content/en"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/en/about/"
+        weight = 10
+      [[languages.en.menu.main]]
+        identifier = "portfolio"
+        name = "Portfolio"
+        url = "/en/portfolio/"
+        weight = 20
+      [[languages.en.menu.main]]
+        identifier = "accomplishments"
+        name = "Accomplishments"
+        url = "/en/accomplishments/"
+        weight = 30
 
   [languages.pt]
     languageName = "Português"
     weight = 3
     title = "Meu Blog"
     contentDir = "content/pt"
+    [languages.pt.menu]
+      [[languages.pt.menu.main]]
+        identifier = "about"
+        name = "Sobre Mim"
+        url = "/pt/about/"
+        weight = 10
+      [[languages.pt.menu.main]]
+        identifier = "portfolio"
+        name = "Portfólio"
+        url = "/pt/portfolio/"
+        weight = 20
+      [[languages.pt.menu.main]]
+        identifier = "accomplishments"
+        name = "Conquistas"
+        url = "/pt/accomplishments/"
+        weight = 30
 
 [params]
   defaultTheme = "auto"
