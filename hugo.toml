@@ -1,4 +1,28 @@
-baseURL = "http://localhost:1313/"
-languageCode = "en-us"
-title = "My Blog"
+baseURL = "https://embici.github.io/"
+defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
 theme = "paper"
+
+[languages]
+  [languages.es]
+    languageName = "Español"
+    weight = 1
+    title = "Mi Blog"
+    contentDir = "content/es"
+
+  [languages.en]
+    languageName = "English"
+    weight = 2
+    title = "My Blog"
+    contentDir = "content/en"
+
+  [languages.pt]
+    languageName = "Português"
+    weight = 3
+    title = "Meu Blog"
+    contentDir = "content/pt"
+
+[params]
+  defaultTheme = "auto"
+  monolingual = false
+  customCSS = ["css/custom.css"]
